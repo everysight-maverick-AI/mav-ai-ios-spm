@@ -2,7 +2,7 @@
 import PackageDescription
 
 let releaseName = "v1.1.2"
-let checksumMav2Sdk = "e2d1895edc1ab72d1ceb9fdb3e39825ceb52f59ba8740cbe1b636973ded60c65"
+let checksumMav2Sdk = "7eb0130974ea1568b409d766bcc2bbfab505de9955436555c962f471523ecc13"
 
 let package = Package(
     name: "MaverickAISDK",
@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MaverickAI",
-            url: "https://github.com/everysight-maverick-AI/mav-ai-ios-spm/releases/download/\(releaseName)/maverick-ai-sdk.xcframework.zip",
+            url: "https://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@github.com/everysight-maverick-AI/mav-ai-ios-spm/releases/download/\(releaseName)/maverick-ai-sdk.xcframework.zip",
             checksum: "\(checksumMav2Sdk)"
         )
     ]
