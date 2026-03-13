@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MaverickAI",
-            url: "https://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@github.com/everysight-maverick-AI/mav-ai-ios-spm/releases/download/\(releaseName)/maverick-ai-sdk.xcframework.zip",
+            url: "https://github.com/everysight-maverick-AI/mav-ai-ios-spm/releases/download/\(releaseName)/maverick-ai-sdk.xcframework.zip",
             checksum: "\(checksumMav2Sdk)"
         )
     ]
