@@ -1,8 +1,8 @@
 // swift-tools-version:5.5
 import PackageDescription
 
-let releaseName = "v1.0.1"
-let checksumMav2Sdk = "ffe9dfb7aa8b7ee241b9e75e2602c972d8fe94769f3ae532a205ce8ba80e6104"
+let releaseName = "v1.0.2"
+let checksumMav2Sdk = "97730a7f081cf6886028cfec902e1edcc860e7c18265ff7e430bd4bc74005211"
 
 let package = Package(
     name: "MaverickAISDK",
