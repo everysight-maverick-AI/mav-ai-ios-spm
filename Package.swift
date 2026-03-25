@@ -2,7 +2,7 @@
 import PackageDescription
 
 let releaseName = "v1.0.6"
-let checksumMav2Sdk = "64f02c04557a1a7f44f38bc772501a7c6dee4d36fee5a26c56ea8fd19763aed1"
+let checksumMav2Sdk = "83019a2c3b5b9949b898d78a9ca10af482e8e9111a7c69a3a60b02bac24364ea"
 
 let package = Package(
     name: "MaverickAISDK",
