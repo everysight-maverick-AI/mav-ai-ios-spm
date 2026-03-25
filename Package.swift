@@ -1,8 +1,8 @@
 // swift-tools-version:5.9
 import PackageDescription
 
-let releaseName = "v1.0.5"
-let checksumMav2Sdk = "187fc8b5274d49b4937b2efc17b708a2af245626cdf7918a0e946ea9b4977902"
+let releaseName = "v1.0.6"
+let checksumMav2Sdk = "fab8b217015f343996ee32031e73ff6dce01907d5af0cf87bdb75de389a53f10"
 
 let package = Package(
     name: "MaverickAISDK",
@@ -22,8 +22,7 @@ let package = Package(
         .target(
             name: "MaverickAISDK",
             dependencies: ["MaverickAI"],
-            path: "Sources/MaverickAISDK",
-            resources: [.copy("compose-resources")]
+            path: "Sources/MaverickAISDK"
         )
     ]
 )
