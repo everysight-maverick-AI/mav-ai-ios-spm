@@ -1,0 +1,14 @@
+---
+description: Always enforce Senior Engineer execution procedure
+alwaysApply: true
+---
+
+# Senior Engineer Task Execution Rule
+
+For every task in this project:
+
+1. Clarify scope before implementation.
+2. Identify exact file insertion points before edits.
+3. Keep changes minimal and contained to requested scope.
+4. Double-check correctness and downstream impact.
+5. Deliver a clear file-by-file summary with assumptions and risks.
